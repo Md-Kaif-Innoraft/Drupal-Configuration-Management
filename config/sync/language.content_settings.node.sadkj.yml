@@ -1,0 +1,11 @@
+uuid: 14d17c87-8e68-4dae-9106-c22252723e84
+langcode: en
+status: true
+dependencies:
+  config:
+    - node.type.sadkj
+id: node.sadkj
+target_entity_type_id: node
+target_bundle: sadkj
+default_langcode: site_default
+language_alterable: false

@@ -1,0 +1,30 @@
+uuid: 3ef9a251-f9d3-48bb-aee0-080cfbf97f1c
+langcode: en
+status: true
+dependencies:
+  module:
+    - node
+    - options
+id: node.field_option
+field_name: field_option
+entity_type: node
+type: list_string
+settings:
+  allowed_values:
+    -
+      value: kaif
+      label: kaif
+    -
+      value: aftab
+      label: aftab
+    -
+      value: utkarsh
+      label: utkarsh
+  allowed_values_function: ''
+module: options
+locked: false
+cardinality: 1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

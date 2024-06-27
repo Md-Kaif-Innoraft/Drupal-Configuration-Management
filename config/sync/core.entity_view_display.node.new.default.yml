@@ -1,0 +1,38 @@
+uuid: 38172523-8966-45c5-8855-de1977f40dca
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.node.new.body
+    - field.field.node.new.field_reference_new
+    - node.type.new
+  module:
+    - text
+    - user
+id: node.new.default
+targetEntityType: node
+bundle: new
+mode: default
+content:
+  body:
+    type: text_default
+    label: hidden
+    settings: {  }
+    third_party_settings: {  }
+    weight: 101
+    region: content
+  field_reference_new:
+    type: entity_reference_label
+    label: above
+    settings:
+      link: true
+    third_party_settings: {  }
+    weight: 102
+    region: content
+  links:
+    settings: {  }
+    third_party_settings: {  }
+    weight: 100
+    region: content
+hidden:
+  langcode: true

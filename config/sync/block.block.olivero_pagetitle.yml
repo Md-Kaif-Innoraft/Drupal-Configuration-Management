@@ -1,0 +1,43 @@
+uuid: 19356c1e-be07-476f-b9fd-999df636a6cc
+langcode: en
+status: true
+dependencies:
+  module:
+    - node
+    - system
+    - user
+  theme:
+    - olivero
+id: olivero_pagetitle
+theme: olivero
+region: sidebar
+weight: -10
+provider: null
+plugin: page_title_block
+settings:
+  id: page_title_block
+  label: 'Laxmi Cheat fund'
+  label_display: visible
+  provider: core
+visibility:
+  request_path:
+    id: request_path
+    negate: false
+    pages: '<front> '
+  user_role:
+    id: user_role
+    negate: false
+    context_mapping:
+      user: '@user.current_user_context:current_user'
+    roles:
+      anonymous: anonymous
+      authenticated: authenticated
+      content_editor: content_editor
+      administrator: administrator
+  'entity_bundle:node':
+    id: 'entity_bundle:node'
+    negate: false
+    context_mapping:
+      node: '@node.node_route_context:node'
+    bundles:
+      article: article

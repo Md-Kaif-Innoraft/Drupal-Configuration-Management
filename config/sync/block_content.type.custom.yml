@@ -1,0 +1,8 @@
+uuid: 3959acad-5416-46a5-85d0-a0bc32428638
+langcode: en
+status: true
+dependencies: {  }
+id: custom
+label: custom
+revision: 0
+description: 'This is a custom block.'

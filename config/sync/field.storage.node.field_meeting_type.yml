@@ -1,0 +1,27 @@
+uuid: beb9904b-2b76-43ef-8d05-547837e62442
+langcode: en
+status: true
+dependencies:
+  module:
+    - node
+    - options
+id: node.field_meeting_type
+field_name: field_meeting_type
+entity_type: node
+type: list_string
+settings:
+  allowed_values:
+    -
+      value: virtual
+      label: Virtual
+    -
+      value: in_office
+      label: 'In office'
+  allowed_values_function: ''
+module: options
+locked: false
+cardinality: 1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

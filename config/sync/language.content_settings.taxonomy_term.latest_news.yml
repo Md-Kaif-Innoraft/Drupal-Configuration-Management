@@ -1,0 +1,11 @@
+uuid: a2738e9c-7355-486d-9bba-aa7878e6558d
+langcode: en
+status: true
+dependencies:
+  config:
+    - taxonomy.vocabulary.latest_news
+id: taxonomy_term.latest_news
+target_entity_type_id: taxonomy_term
+target_bundle: latest_news
+default_langcode: site_default
+language_alterable: false

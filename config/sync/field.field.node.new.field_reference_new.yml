@@ -1,0 +1,27 @@
+uuid: cfb91330-09fd-4b3f-86c4-97c4e0ed64e7
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_reference_new
+    - node.type.new
+id: node.new.field_reference_new
+field_name: field_reference_new
+entity_type: node
+bundle: new
+label: reference_new
+description: ''
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: 'default:node'
+  handler_settings:
+    target_bundles: {  }
+    sort:
+      field: _none
+      direction: ASC
+    auto_create: false
+    auto_create_bundle: ''
+field_type: entity_reference

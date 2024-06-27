@@ -1,0 +1,3 @@
+label: 'Niedliche Kätzchen'
+category: Tiere
+images: "kaetzchen_1:\r\n  text: 'Niedliches Kätzchen 1'\r\n  src: 'http://placekitten.com/220/200'\r\nkaetzchen_2:\r\n  text: 'Niedliches Kätzchen 2'\r\n  src: 'http://placekitten.com/180/200'\r\nkaetzchen_3:\r\n  text: 'Niedliches Kätzchen 3'\r\n  src: 'http://placekitten.com/130/200'\r\nkaetzchen_4:\r\n  text: 'Niedliches Kätzchen 4'\r\n  src: 'http://placekitten.com/270/200'\n"

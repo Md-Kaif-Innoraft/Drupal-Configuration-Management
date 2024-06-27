@@ -1,0 +1,42 @@
+uuid: 1000f951-7599-4065-a102-4668e7c93f9a
+langcode: en
+status: true
+dependencies:
+  config:
+    - core.entity_view_mode.node.custom
+    - field.field.node.article.body
+    - field.field.node.article.field_comment
+    - field.field.node.article.field_datetime
+    - field.field.node.article.field_image
+    - field.field.node.article.field_tags
+    - image.style.wide
+    - node.type.article
+  module:
+    - image
+    - user
+_core:
+  default_config_hash: br6izr-iGEu--JvNbCJNtOBpRnxpFLXfoV5y61U9Nqc
+id: node.article.custom
+targetEntityType: node
+bundle: article
+mode: custom
+content:
+  field_image:
+    type: image
+    label: hidden
+    settings:
+      image_link: ''
+      image_style: wide
+      image_loading:
+        attribute: eager
+    third_party_settings: {  }
+    weight: 0
+    region: content
+hidden:
+  body: true
+  field_comment: true
+  field_datetime: true
+  field_tags: true
+  langcode: true
+  links: true
+  search_api_excerpt: true

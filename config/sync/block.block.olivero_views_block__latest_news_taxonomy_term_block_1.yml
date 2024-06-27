@@ -1,0 +1,29 @@
+uuid: 776ca9dd-c28b-4f69-aca3-961406995f00
+langcode: en
+status: true
+dependencies:
+  config:
+    - views.view.latest_news_taxonomy_term
+  module:
+    - system
+    - views
+  theme:
+    - olivero
+id: olivero_views_block__latest_news_taxonomy_term_block_1
+theme: olivero
+region: content_below
+weight: -13
+provider: null
+plugin: 'views_block:latest_news_taxonomy_term-block_1'
+settings:
+  id: 'views_block:latest_news_taxonomy_term-block_1'
+  label: ''
+  label_display: visible
+  provider: views
+  views_label: ''
+  items_per_page: none
+visibility:
+  request_path:
+    id: request_path
+    negate: false
+    pages: "/taxonomy/term/*\r\n/node/*"

@@ -1,0 +1,19 @@
+uuid: 668cebf6-7364-4044-93a7-2b79145055db
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_time_stamp
+    - node.type.products
+id: node.products.field_time_stamp
+field_name: field_time_stamp
+entity_type: node
+bundle: products
+label: 'time stamp'
+description: ''
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: timestamp

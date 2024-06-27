@@ -1,0 +1,33 @@
+uuid: 14414067-6cd4-4639-b276-b71f1b3b5ae3
+langcode: en
+status: true
+dependencies:
+  content:
+    - 'block_content:basic:74842229-7e95-4601-9019-2603aa8fd51e'
+  module:
+    - block_content
+    - node
+  theme:
+    - olivero
+id: olivero_fornodesonly
+theme: olivero
+region: sidebar
+weight: -9
+provider: null
+plugin: 'block_content:74842229-7e95-4601-9019-2603aa8fd51e'
+settings:
+  id: 'block_content:74842229-7e95-4601-9019-2603aa8fd51e'
+  label: 'for nodes only'
+  label_display: visible
+  provider: block_content
+  status: true
+  info: ''
+  view_mode: full
+visibility:
+  'entity_bundle:node':
+    id: 'entity_bundle:node'
+    negate: false
+    context_mapping:
+      node: '@node.node_route_context:node'
+    bundles:
+      article: article
