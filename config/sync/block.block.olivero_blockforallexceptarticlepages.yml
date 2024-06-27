@@ -1,0 +1,37 @@
+uuid: 115b0533-ebe3-416f-ba43-0cb484f3f7c4
+langcode: en
+status: true
+dependencies:
+  content:
+    - 'block_content:basic:4b8002fc-1745-4e76-b046-1d52c1e27edc'
+  module:
+    - block_content
+    - node
+  theme:
+    - olivero
+id: olivero_blockforallexceptarticlepages
+theme: olivero
+region: sidebar
+weight: -13
+provider: null
+plugin: 'block_content:4b8002fc-1745-4e76-b046-1d52c1e27edc'
+settings:
+  id: 'block_content:4b8002fc-1745-4e76-b046-1d52c1e27edc'
+  label: 'block for all except article pages'
+  label_display: visible
+  provider: block_content
+  status: true
+  info: ''
+  view_mode: full
+visibility:
+  'entity_bundle:node':
+    id: 'entity_bundle:node'
+    negate: false
+    context_mapping:
+      node: '@node.node_route_context:node'
+    bundles:
+      new: new
+      news: news
+      page: page
+      products: products
+      sample: sample

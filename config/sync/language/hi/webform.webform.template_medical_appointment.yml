@@ -1,0 +1,5 @@
+settings:
+  confirmation_title: धन्यवाद
+handlers:
+  email_notification:
+    label: 'ईमेल अधिसूचना'

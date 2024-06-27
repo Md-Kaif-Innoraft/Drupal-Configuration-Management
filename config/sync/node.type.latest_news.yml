@@ -1,0 +1,18 @@
+uuid: f8c83e60-1b10-42fb-850c-fe0869c15153
+langcode: en
+status: true
+dependencies:
+  module:
+    - menu_ui
+third_party_settings:
+  menu_ui:
+    available_menus:
+      - main
+    parent: 'main:'
+name: 'Latest News'
+type: latest_news
+description: ''
+help: ''
+new_revision: true
+preview_mode: 1
+display_submitted: true

@@ -1,0 +1,14 @@
+favicon:
+  mimetype: image/jpeg
+  path: 'public://inno_0_0.jpeg'
+  use_default: false
+features:
+  comment_user_picture: true
+  comment_user_verification: true
+  favicon: true
+  node_user_picture: true
+logo:
+  use_default: true
+third_party_settings:
+  shortcut:
+    module_link: true

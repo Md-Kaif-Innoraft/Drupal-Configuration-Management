@@ -1,0 +1,38 @@
+uuid: da54d84d-dc4e-4519-9607-31477763d9f2
+langcode: en
+status: true
+dependencies:
+  content:
+    - 'block_content:custom:8b8c23a4-c4e6-464d-831e-9adc87b7bd14'
+  module:
+    - block_content
+    - system
+    - user
+  theme:
+    - olivero
+id: olivero_adminonly
+theme: olivero
+region: content_below
+weight: -11
+provider: null
+plugin: 'block_content:8b8c23a4-c4e6-464d-831e-9adc87b7bd14'
+settings:
+  id: 'block_content:8b8c23a4-c4e6-464d-831e-9adc87b7bd14'
+  label: 'admin only'
+  label_display: visible
+  provider: block_content
+  status: true
+  info: ''
+  view_mode: full
+visibility:
+  user_role:
+    id: user_role
+    negate: false
+    context_mapping:
+      user: '@user.current_user_context:current_user'
+    roles:
+      administrator: administrator
+  request_path:
+    id: request_path
+    negate: false
+    pages: '<front>'

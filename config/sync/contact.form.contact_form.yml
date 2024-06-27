@@ -1,0 +1,12 @@
+uuid: 63643598-c676-4f46-8079-ab394ca9fe2f
+langcode: en
+status: true
+dependencies: {  }
+id: contact_form
+label: 'contact form'
+recipients:
+  - kaif.ansari@innoraft.com
+reply: hello
+weight: 0
+message: 'Thanks for contacting us.'
+redirect: /services

@@ -1,0 +1,18 @@
+uuid: 63f00d50-c019-49b2-bbfa-8bb7aed62f1f
+langcode: de
+status: true
+dependencies:
+  config:
+    - comment.type.new_comment_type
+id: comment.new_comment_type.mail
+field_name: mail
+entity_type: comment
+bundle: new_comment_type
+label: Email
+description: "The comment author's email address."
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: email

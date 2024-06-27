@@ -1,0 +1,23 @@
+uuid: 2f44abeb-a93e-40df-ab6e-febce718f6aa
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_number
+    - node.type.products
+id: node.products.field_number
+field_name: field_number
+entity_type: node
+bundle: products
+label: Number
+description: ''
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings:
+  min: null
+  max: null
+  prefix: ''
+  suffix: ''
+field_type: integer

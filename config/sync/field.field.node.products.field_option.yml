@@ -1,0 +1,21 @@
+uuid: 84581482-b390-431f-8703-e333ab0eb17e
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_option
+    - node.type.products
+  module:
+    - options
+id: node.products.field_option
+field_name: field_option
+entity_type: node
+bundle: products
+label: option
+description: ''
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: list_string

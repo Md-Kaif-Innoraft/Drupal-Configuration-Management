@@ -1,0 +1,33 @@
+uuid: 06daaaf6-2b6a-4108-8248-c5ee5812d9db
+langcode: en
+status: true
+dependencies:
+  content:
+    - 'block_content:page_block:91052640-5fb8-4a19-8074-4ab495d1bb03'
+  module:
+    - block_content
+    - node
+  theme:
+    - olivero
+id: olivero_kaifpageblock
+theme: olivero
+region: social
+weight: 0
+provider: null
+plugin: 'block_content:91052640-5fb8-4a19-8074-4ab495d1bb03'
+settings:
+  id: 'block_content:91052640-5fb8-4a19-8074-4ab495d1bb03'
+  label: 'kaif page block'
+  label_display: visible
+  provider: block_content
+  status: true
+  info: ''
+  view_mode: full
+visibility:
+  'entity_bundle:node':
+    id: 'entity_bundle:node'
+    negate: false
+    context_mapping:
+      node: '@node.node_route_context:node'
+    bundles:
+      article: article

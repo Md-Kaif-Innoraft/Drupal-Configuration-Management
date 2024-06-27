@@ -1,0 +1,40 @@
+uuid: 910e98f9-308a-4f11-b075-da2b092655d7
+langcode: en
+status: true
+dependencies:
+  config:
+    - core.entity_view_mode.node.custom
+    - field.field.node.latest_news.body
+    - field.field.node.latest_news.field_image
+    - field.field.node.latest_news.field_news_catogery
+    - image.style.wide
+    - node.type.latest_news
+  module:
+    - image
+    - user
+id: node.latest_news.custom
+targetEntityType: node
+bundle: latest_news
+mode: custom
+content:
+  field_image:
+    type: image
+    label: hidden
+    settings:
+      image_link: ''
+      image_style: wide
+      image_loading:
+        attribute: eager
+    third_party_settings: {  }
+    weight: 0
+    region: content
+  links:
+    settings: {  }
+    third_party_settings: {  }
+    weight: 100
+    region: content
+hidden:
+  body: true
+  field_news_catogery: true
+  langcode: true
+  search_api_excerpt: true

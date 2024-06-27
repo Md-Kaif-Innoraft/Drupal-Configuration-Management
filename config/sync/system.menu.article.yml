@@ -1,0 +1,8 @@
+uuid: d2e49593-1a18-4c44-80dc-c401f6840846
+langcode: en
+status: true
+dependencies: {  }
+id: article
+label: Article
+description: 'Links to Articles'
+locked: false

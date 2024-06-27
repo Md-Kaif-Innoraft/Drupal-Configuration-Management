@@ -1,0 +1,22 @@
+uuid: 2231e001-0a21-4951-a462-05bd94a17106
+langcode: de
+status: true
+dependencies:
+  config:
+    - block_content.type.demo
+id: block_content.demo.status
+field_name: status
+entity_type: block_content
+bundle: demo
+label: Published
+description: ''
+required: false
+translatable: false
+default_value:
+  -
+    value: 1
+default_value_callback: ''
+settings:
+  on_label: 'On'
+  off_label: 'Off'
+field_type: boolean

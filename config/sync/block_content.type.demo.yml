@@ -1,0 +1,8 @@
+uuid: abba088e-f6a7-4504-8c31-020ae636b06b
+langcode: en
+status: true
+dependencies: {  }
+id: demo
+label: demo
+revision: 0
+description: 'demo block'

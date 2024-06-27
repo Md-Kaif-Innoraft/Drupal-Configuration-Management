@@ -1,0 +1,16 @@
+uuid: 2786adc4-541c-4ccf-85d6-085edb7fd518
+langcode: en
+status: true
+dependencies:
+  config:
+    - node.type.latest_news
+  module:
+    - content_translation
+third_party_settings:
+  content_translation:
+    enabled: true
+id: node.latest_news
+target_entity_type_id: node
+target_bundle: latest_news
+default_langcode: site_default
+language_alterable: false

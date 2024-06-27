@@ -1,0 +1,31 @@
+uuid: 3076a676-da2d-4651-98d8-16249499dd8a
+langcode: en
+status: true
+dependencies:
+  config:
+    - webform.webform.message
+  module:
+    - system
+    - webform
+  theme:
+    - olivero
+id: olivero_webform
+theme: olivero
+region: sidebar
+weight: -14
+provider: null
+plugin: webform_block
+settings:
+  id: webform_block
+  label: 'Contact us webform'
+  label_display: visible
+  provider: webform
+  webform_id: message
+  default_data: ''
+  redirect: false
+  lazy: false
+visibility:
+  request_path:
+    id: request_path
+    negate: false
+    pages: '<front>'

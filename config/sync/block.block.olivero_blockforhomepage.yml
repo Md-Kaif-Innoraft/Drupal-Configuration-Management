@@ -1,0 +1,30 @@
+uuid: 477dc1f6-d6d8-483d-89e7-23973e4b0916
+langcode: en
+status: true
+dependencies:
+  content:
+    - 'block_content:custom:6bc68a78-bea3-4ced-990b-71c5679bc600'
+  module:
+    - block_content
+    - system
+  theme:
+    - olivero
+id: olivero_blockforhomepage
+theme: olivero
+region: sidebar
+weight: -12
+provider: null
+plugin: 'block_content:6bc68a78-bea3-4ced-990b-71c5679bc600'
+settings:
+  id: 'block_content:6bc68a78-bea3-4ced-990b-71c5679bc600'
+  label: 'Block for home page'
+  label_display: visible
+  provider: block_content
+  status: true
+  info: ''
+  view_mode: full
+visibility:
+  request_path:
+    id: request_path
+    negate: false
+    pages: '<front>'

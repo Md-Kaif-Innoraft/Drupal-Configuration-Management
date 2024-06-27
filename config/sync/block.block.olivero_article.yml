@@ -1,0 +1,25 @@
+uuid: 18474ee9-9581-4cdc-a946-951376da25bd
+langcode: en
+status: true
+dependencies:
+  config:
+    - system.menu.article
+  module:
+    - system
+  theme:
+    - olivero
+id: olivero_article
+theme: olivero
+region: hero
+weight: 0
+provider: null
+plugin: 'system_menu_block:article'
+settings:
+  id: 'system_menu_block:article'
+  label: Article
+  label_display: visible
+  provider: system
+  level: 1
+  depth: 0
+  expand_all_items: false
+visibility: {  }

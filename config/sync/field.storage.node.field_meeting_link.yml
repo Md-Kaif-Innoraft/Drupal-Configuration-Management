@@ -1,0 +1,19 @@
+uuid: 7c0d0954-ac23-4e68-9382-728ce7906fe6
+langcode: en
+status: true
+dependencies:
+  module:
+    - link
+    - node
+id: node.field_meeting_link
+field_name: field_meeting_link
+entity_type: node
+type: link
+settings: {  }
+module: link
+locked: false
+cardinality: 1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false
